@@ -1,0 +1,36 @@
+{
+    "name": "custom-hash",
+    "version": "0.9.0",
+    "description": "Custom hash generator (based on MD5 algorithm)",
+    "main": "lib/custom-hash.js",
+    "scripts": {
+        "lint": "jshint ./ --exclude ./node_modules",
+        "code-style": "jscs ./",
+        "test": "mocha tests --require should --reporter spec --colors"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Belema/custom-hash.git"
+    },
+    "keywords": [
+        "hash",
+        "custom",
+        "md5",
+        "short",
+        "short-hash",
+        "custom-md5",
+        "short-md5"
+    ],
+    "author": "Belema Gancarz",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Belema/custom-hash/issues"
+    },
+    "homepage": "https://github.com/Belema/custom-hash#readme",
+    "devDependencies": {
+        "jscs": "^2.7.0",
+        "jshint": "^2.8.0",
+        "mocha": "^2.3.4",
+        "should": "^8.0.2"
+    }
+}
